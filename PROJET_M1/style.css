@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+}
+
+.bloc_hero {
+    background-image: url(/PROJET_M1/asset/background_banner.jpeg);
+    background-position-x: 80%;
+    background-position-y: 100%; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;    
+    color: white;
+    height: 100vh;
+    padding: 0 165px;
+}
+
+
+.bloc_hero_text {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.bloc_hero_container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 21px 0;
+    border-bottom: 0.5px solid rgba(86, 178, 128, .2)
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li a {
+    padding-right: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.bloc_hero_text p {
+    font-size: 16px;
+    font-weight: medium;
+    padding-bottom: 25px;
+}
+
+.bloc_hero_text a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #719986;
+    border-radius: 64px;
+    padding: 8px 44px;
+}
