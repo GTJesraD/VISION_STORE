@@ -19,7 +19,7 @@ section {
 }
 
 .bloc_hero {
-    background-image: url(/PROJET_M1/asset/background_banner.jpeg);
+    background-image: url(/asset/background_banner.jpeg);
     background-position-x: 80%;
     background-position-y: 100%;
     background-repeat: no-repeat;
@@ -76,7 +76,14 @@ nav ul li a {
 h1 {
     font-size: 50px;
     font-weight: bold;
-    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 115%;
 }
 
 .bloc_hero_text p {
@@ -85,8 +92,9 @@ h1 {
     padding-bottom: 25px;
 }
 
-.bloc_hero_text a {
+.btn_regular {
     font-size: 20px;
+    font-family: 'Secular One', sans-serif;
     text-decoration: none;
     color: #FFFFFF;
     background: #719986;
@@ -126,4 +134,27 @@ h1 {
 
 .bloc_products_content img {
     width: 203px;
+}
+
+.bloc_text_container {
+    background-color: #F7F8FA;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 165px;
+  
+}
+
+.bloc_text_content p {
+    color: #719986;
+    margin-bottom: 33px;
+}
+
+.bloc_text_content ul {
+    margin:0 0 40px 0;
+    list-style-image: url(/asset/checkmark-circle.svg);
+}
+
+.bloc_text_content span {
+    font-weight: 500;
+    margin-left: 20px;
 }
