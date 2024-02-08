@@ -162,12 +162,6 @@ h3 {
 
 .btn_regular:hover {
     background: #4B685A;
-    transition: 0.3s ease-in-out;
-    box-shadow: 0px 0px 0.8px rgba(5, 46, 17, 0.008),
-        0px 1px 4px rgba(5, 46, 17, 0.02),
-        0px 3px 9px rgba(5, 46, 17, 0.03),
-        0px 6px 17px rgba(5, 46, 17, 0.04),
-        0px 9px 26px rgba(5, 46, 17, 0.05);
 }
 
 .bloc_products {
