@@ -132,7 +132,7 @@ h3 {
 
 .bloc_hero_text p {
     font-size: 16px;
-    font-weight:500;
+    font-weight: 500;
     padding-bottom: 25px;
 }
 
@@ -317,6 +317,7 @@ iframe {
     color: #FFFFFF;
     font-weight: 500;
     margin-top: 24px;
+    transition: 0.3s ease-in;
 }
 
 .bloc_footer_top_container {
@@ -336,7 +337,12 @@ iframe {
 
 .bloc_footer_top_content_list a {
     text-decoration: none;
-    color: #E1E1E1;
+    color: #FFFFFF;
+    transition: 0.3s ease-in;
+}
+
+.bloc_footer_top_content_list a:hover, #link_mail:hover {
+    color: #B2B2B2;
 }
 
 .bloc_footer_top_content_list ul li {
@@ -359,4 +365,10 @@ iframe {
 .bloc_footer_bottom a {
     text-decoration: none;
     color: #000103;
+    transition: 0.1s linear;
+}
+
+
+.bloc_footer_bottom a:hover {
+    border-bottom: #000103 1.8px solid;
 }
