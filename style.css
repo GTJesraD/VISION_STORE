@@ -28,7 +28,7 @@ section {
 }
 
 .bloc_hero {
-    background-image: url("asset/background_banner.jpeg")!important;
+    background-image: url("asset/background_banner.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center bottom 70px;
@@ -156,13 +156,14 @@ h3 {
     border-radius: 64px;
     padding: 8px 44px;
     transition: 0.45s ease-in-out;
+    
 }
 
 
 .btn_regular:hover {
     background: #4B685A;
     transition: 0.3s ease-in-out;
-       box-shadow: 0px 0px 0.8px rgba(5, 46, 17, 0.008),
+    box-shadow: 0px 0px 0.8px rgba(5, 46, 17, 0.008),
         0px 1px 4px rgba(5, 46, 17, 0.02),
         0px 3px 9px rgba(5, 46, 17, 0.03),
         0px 6px 17px rgba(5, 46, 17, 0.04),
@@ -237,7 +238,7 @@ h3 {
 }
 
 .bloc_text_content li {
-    background: url(asset/checkmark-circle.svg) no-repeat 0px 5px;
+    background: url(/asset/checkmark-circle.svg) no-repeat 0px 5px;
     list-style-type: none;
     padding: 0px 0px 3px 32px;
 }
