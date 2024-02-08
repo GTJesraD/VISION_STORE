@@ -28,7 +28,7 @@ section {
 }
 
 .bloc_hero {
-    background-image: url(asset/background_banner.jpeg)!important;
+    background-image: url("asset/background_banner.jpeg")!important;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center bottom 70px;
